@@ -22,6 +22,7 @@ providing the results in-terms of visualizations
 ### THE PROCESS
 
 Time series
+![png](/readmephotos/process.png)
 
 
 ###### CHECKING FOR STATIONARITY
