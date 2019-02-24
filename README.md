@@ -27,39 +27,38 @@ Time series
 Results –Not so good
 
 
-ELIMINATING TREND AND SEASONALITY
+### Transformation: ELIMINATING TREND AND SEASONALITY
+Results of Dickey-Fuller Test:
 ![png](/readmephotos/3.png)
 
-Results of Dickey-Fuller Test:
 
-
-### EXPONENTIAL MOVING AVERAGE
+### Transformation: EXPONENTIAL MOVING AVERAGE 
 
 Results of Dickey-Fuller Test:
 ![png](/readmephotos/4.png)
 ![png](/readmephotos/5.png)
 
 
-### LOG MOVING AVERAGE DIFF
+### Transformation: LOG MOVING AVERAGE DIFF
 
 Results of Dickey-Fuller Test:
 
 ![png](/readmephotos/6.png)
 ![png](/readmephotos/7.png)
 
-DECOMPOSITION
+### Transformation: DECOMPOSITION
 
 Results of Dickey-Fuller Test:
 
 ![png](/readmephotos/8.png)
 ![png](/readmephotos/9.png)
 
-### ACF & PACF
+### Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) to IDENTIFY the AR or MA terms in an ARIMA model
 
 plots
 ![png](/readmephotos/10.png)
 
-### ARIMA MODEL
+### ARIMA MODEL Using ACF and PACF Terms from Above
 ![png](/readmephotos/11.png)
 
 ### Resampled Data
