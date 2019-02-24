@@ -1,11 +1,6 @@
 # Flatiron-School-Project4_ETF_TimeSeries_Forecast_SARIMAX
 
-# ETF/STOCK
-
-# TIME SERIES
-
-# FORECASTING
-
+# ETF/STOCK TIME-SERIES FORECASTING
 
 #### Our Objective
 
@@ -25,13 +20,15 @@ Time series
 ![png](/readmephotos/process.png)
 
 
-###### CHECKING FOR STATIONARITY
+### CHECKING FOR STATIONARITY
+![png](/readmephotos/2.png)
 
 
 Results –Not so good
 
 
 ELIMINATING TREND AND SEASONALITY
+![png](/readmephotos/3.png)
 
 Results of Dickey-Fuller Test:
 
@@ -39,61 +36,56 @@ Results of Dickey-Fuller Test:
 ### EXPONENTIAL MOVING AVERAGE
 
 Results of Dickey-Fuller Test:
+![png](/readmephotos/4.png)
+![png](/readmephotos/5.png)
 
 
-### LOG MOVING
-
-### AVERAGE DIFF
+### LOG MOVING AVERAGE DIFF
 
 Results of Dickey-Fuller Test:
 
+![png](/readmephotos/6.png)
+![png](/readmephotos/7.png)
 
 DECOMPOSITION
 
 Results of Dickey-Fuller Test:
 
+![png](/readmephotos/8.png)
+![png](/readmephotos/9.png)
 
 ### ACF & PACF
 
 plots
+![png](/readmephotos/10.png)
+
+### ARIMA MODEL
+![png](/readmephotos/11.png)
+
+### Resampled Data
+![png](/readmephotos/12.png)
+
+### Model Error Formula
+![png](/readmephotos/13.png)
+
+### Forecast EFA Closing Prices and Monthly and Weekly Resample Forecasts
+![png](/readmephotos/14.png)
 
 
-### ARIMA
-
-### MODEL
-
-
-#### Resampled Model Error
-
-#### Data
-
-
-## Forecast EFA
-
-## closing Price
-
-```
-Monthly Resample
-```
-```
-Weekly Resample
-```
-
-#### SOME
-
-#### PREDICTIONS
+### Other Stock and ETF REDICTIONS
 
 ■ Using resampled weekly Data
 forecast model
 
 ■ Showing Upper and Lower
 confidence levels
+![png](/readmephotos/15.png)
+
+### Actual Price Comparison
+![png](/readmephotos/17.png)
 
 
-##### Actual Price Comparison
-
-
-#### FUTURE IMPROVEMENTS
+### FUTURE IMPROVEMENTS
 
 ■ Add more data from other sources
 
@@ -106,6 +98,6 @@ confidence levels
 ■ Add more variables to predict the adjusted close price
 
 
-#### Thank you
+## Thank you
 
 ■ Kyle Powers
